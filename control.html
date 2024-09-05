@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Devices</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Control Devices</h1>
+        <form action="SmartHomeServlet" method="post">
+            <label for="deviceName">Enter device name:</label>
+            <input type="text" id="deviceName" name="deviceName" required>
+
+            <label for="action">Choose action:</label>
+            <select name="action" id="action">
+                <option value="on">Turn ON</option>
+                <option value="off">Turn OFF</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+        <a href="index.html">Back to Home</a>
+    </div>
+</body>
+</html>

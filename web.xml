@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>SmartHomeServlet</servlet-name>
+        <servlet-class>SmartHomeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SmartHomeServlet</servlet-name>
+        <url-pattern>/SmartHomeServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Home Management</h1>
+        <form action="SmartHomeServlet" method="post">
+            <label for="device">Choose a device type:</label>
+            <select name="device" id="device">
+                <option value="light">Light</option>
+                <option value="thermostat">Thermostat</option>
+                <option value="securitySystem">Security System</option>
+            </select>
+
+            <input type="submit" value="Add Device">
+        </form>
+        <a href="control.html">Control Devices</a>
+    </div>
+</body>
+</html>
